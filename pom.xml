@@ -69,14 +69,18 @@
 
     <build>
         <plugins>
-            <!-- Spring Boot Maven Plugin -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>${spring-boot.version}</version>
+                <version>3.2.4</version>
+                <configuration>
+                    <mainClass>com.blockzones.BlockzonesBackendApplication</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>
+
+
 
     <dependencyManagement>
         <dependencies>
