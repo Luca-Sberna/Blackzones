@@ -29,4 +29,14 @@ public class UserController {
         Optional<User> user = userService.findById(id);
         return user.map(ResponseEntity::ok).orElse(ResponseEntity.notFound().build());
     }
+
+    @RestController
+    public static class TestController {
+        @GetMapping("/hello")
+        public String hello() {
+            System.out.println("Endpoint /hello chiamato!");
+            return "Hello from backend!";
+        }
+    }
+
 }
