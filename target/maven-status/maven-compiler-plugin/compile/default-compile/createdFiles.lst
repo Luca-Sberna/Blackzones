@@ -1,0 +1,17 @@
+com\blockzones\model\Land.class
+com\blockzones\service\UserService.class
+com\blockzones\model\RepairLog.class
+com\blockzones\service\LandService.class
+com\blockzones\model\User$Role.class
+com\blockzones\BlockzonesBackendApplication.class
+com\blockzones\model\TokenWallet.class
+com\blockzones\model\AttackEvent.class
+com\blockzones\repository\RepairLogRepository.class
+com\blockzones\controller\LandController.class
+com\blockzones\model\Land$Rarity.class
+com\blockzones\model\User.class
+com\blockzones\repository\AttackEventRepository.class
+com\blockzones\repository\UserRepository.class
+com\blockzones\controller\UserController.class
+com\blockzones\repository\TokenWalletRepository.class
+com\blockzones\repository\LandRepository.class
