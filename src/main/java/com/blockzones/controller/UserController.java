@@ -34,7 +34,6 @@ public class UserController {
     public static class TestController {
         @GetMapping("/hello")
         public String hello() {
-            System.out.println("Endpoint /hello chiamato!");
             return "Hello from backend!";
         }
     }

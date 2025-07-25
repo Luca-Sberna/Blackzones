@@ -2,7 +2,6 @@
 package com.blockzones.controller;
 
 import com.blockzones.model.Land;
-import com.blockzones.model.User;
 import com.blockzones.service.LandService;
 import com.blockzones.service.UserService;
 import org.springframework.http.ResponseEntity;
