@@ -1,5 +1,6 @@
 com\blockzones\model\Land.class
 com\blockzones\service\UserService.class
+com\blockzones\controller\UserController$TestController.class
 com\blockzones\model\RepairLog.class
 com\blockzones\service\LandService.class
 com\blockzones\model\User$Role.class

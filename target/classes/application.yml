@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: ${DATABASE_URL}
+    url: jdbc:postgresql://yamanote.proxy.rlwy.net:20745/railway?user=postgres&password=DwfgMxadDktOryeliUPksZnYszzgckGB&sslmode=disable
   jpa:
     hibernate:
       ddl-auto: update
